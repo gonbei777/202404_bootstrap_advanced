@@ -1,0 +1,5 @@
+// Bootstrapオーバーライド（上書き）ファイル
+@use './variables' as *;
+
+$primary: map-get($colors, primary);
+$secondary: map-get($colors, secondary);
