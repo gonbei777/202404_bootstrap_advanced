@@ -1,6 +1,11 @@
+
 // 独自のスタイル
-// @forward './custom';
-@forward './layout';
+// @use './custom' as *;
+@use './variables' as *;
 
 // Bootstrapの読み込み
-@forward 'bootstrap/bootstrap';
+@forward 'bootstrap/bootstrap' with (
+    $primary: map-get($colors, primary)
+);
+
+@forward './layout';

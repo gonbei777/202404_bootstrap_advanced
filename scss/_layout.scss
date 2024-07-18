@@ -5,4 +5,14 @@
         opacity: .9;
         background-color: #fff;
     }
+
+    &-logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+        padding: 0 .7rem;
+    }
 }
