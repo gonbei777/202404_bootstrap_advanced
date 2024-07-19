@@ -11967,6 +11967,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.sk-header-nav {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  background-color: #fff;
+}
+.sk-header-logo {
+  width: 50px;
+  height: auto;
+}
+.sk-header .nav-item {
+  font-size: 1.4rem;
+  padding: 0 0.7rem;
+}
+
 .showcase {
   background: url(../img/space_mountain.jpg) no-repeat center bottom;
   background-size: cover;
