@@ -1,5 +1,5 @@
 @import './variables';
-@import './custom';
+@import './custom'; //オーバーライド（上書き用）ファイル
 @import 'bootstrap/bootstrap';
 
 @import './layout';
