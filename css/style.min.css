@@ -11991,4 +11991,13 @@ textarea.form-control-lg {
 .sk-header .nav-item {
   font-size: 1.4rem;
   padding: 0 0.7rem;
+}
+
+.showcase {
+  background: url(../img/space_mountain.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+.showcase-overlay {
+  padding-top: 120px;
+  background-color: rgba(33, 60, 87, 0.8);
 }/*# sourceMappingURL=style.min.css.map */

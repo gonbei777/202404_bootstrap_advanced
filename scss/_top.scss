@@ -1,0 +1,13 @@
+// TOPページ
+@use './variables' as *;
+
+// ショーケース
+.showcase {
+  background: url(../img/space_mountain.jpg) no-repeat center bottom;
+  background-size: cover;
+
+  &-overlay {
+    padding-top: 120px;
+    background-color: rgba(map-get($colors, primary), .8);
+  }
+}
